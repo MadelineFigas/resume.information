@@ -3,24 +3,70 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Madeline C. Figas - Resume</title>
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <title>Madeline C. Figas</title>
   <style>
     :root {
-      --border: #CCCCCC;       /* Grey outline */
-      --heading: #8B0000;      /* Dark red for headings and bold text */
+      --border: #CC0000;       /* Red outline */
+      --heading: #CC0000;      /* Red for headings and bold text */
       --bg: #ffffff;           /* White background */
-      --container-bg: #ffffff;  /* White container background */
+      --container-bg: #ffffff; /* White container background */
       --text: #000000;         /* Black text */
-      --hover: #660000;        /* Darker red for hover effects */
+      --hover: #990000;        /* Darker red for hover effects */
     }
-
-    /* (ALL OTHER CSS RULES REMAIN THE SAME AS BEFORE) */
-
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.8;
+      padding-bottom: 2rem;
+    }
+    
+    header {
+      background: var(--bg);
+      text-align: center;
+      padding: 2rem 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    
+    header h1 {
+      font-size: 3rem;
+      color: var(--heading);
+    }
+    
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      background: var(--container-bg);
+      padding: 2rem;
+      border-radius: 10px;
+      border: 2px solid var(--border);
+    }
+    
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: var(--bg);
+      color: var(--text);
+      border-top: 1px solid var(--border);
+      font-size: 0.95rem;
+      margin-top: 2rem;
+    }
   </style>
 </head>
 <body>
-  <!-- ALL HTML CONTENT REMAINS THE SAME AS BEFORE -->
+  <header>
+    <h1>Madeline C. Figas</h1>
+  </header>
+  <div class="container"></div>
+  <footer>
+    &copy; 2025 Madeline C. Figas
+  </footer>
 </body>
 </html>
